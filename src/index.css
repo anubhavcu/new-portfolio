@@ -17,5 +17,16 @@
 }
 
 .home-name {
-  font-size: 150px;
+  font-size: 80px;
+}
+
+#cursor {
+  border-left: 0.1em solid #00ff41;
+  animation: blink 0.7s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }
