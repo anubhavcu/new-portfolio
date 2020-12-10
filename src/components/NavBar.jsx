@@ -11,28 +11,28 @@ export default function NavBar() {
             to="/"
             exact
             activeClassName="text-white"
-            className="inflex-flex items-center py-6 px-3 mr-10  text-red-100 hover:text-green-800 text-4xl sans-serif tracking-widest"
+            className="inflex-flex items-center py-6 px-3 mr-10  text-red-100 transition duration-300 ease-in-out  hover:bg-red-600  hover:text-white text-4xl sans-serif tracking-widest"
           >
             Anubhav
           </NavLink>
           <NavLink
             to="/post"
             activeClassName="text-red-100 bg-red-700"
-            className="inflex-flex items-center py-3 px-4 my-6 rounded text-red-200 hover:text-green-800"
+            className="inflex-flex items-center py-3 px-4 my-6 mx-1 rounded text-red-200 transition duration-300 ease-in-out  hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110 hover:text-green-500"
           >
             Blog Posts
           </NavLink>
           <NavLink
             to="/project"
             activeClassName="text-red-100 bg-red-700"
-            className="inflex-flex items-center py-3 px-4 my-6 rounded text-red-200 hover:text-green-800"
+            className="inflex-flex items-center py-3 px-4 my-6 mx-1 rounded text-red-200 transition duration-300 ease-in-out  hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110 hover:text-green-500 hover:text-red-100"
           >
             Projects
           </NavLink>
           <NavLink
             to="/about"
             activeClassName="text-red-100 bg-red-700"
-            className="inflex-flex items-center py-3 px-4 my-6 rounded text-red-200 hover:text-green-800"
+            className="inflex-flex items-center py-3 px-4 my-6 mx-1 rounded text-red-200 transition duration-300 ease-in-out  hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110 hover:text-green-500 hover:text-red-100"
           >
             About Me!
           </NavLink>
@@ -40,28 +40,28 @@ export default function NavBar() {
         <div className="inline-flex py-3 px-4 my-6">
           <SocialIcon
             url="https://github.com/anubhavcu"
-            className="mr-5"
+            className="mr-5 transition duration-300 ease-in-out  hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110"
             target="_blank"
             fgColor="#fff"
             style={{ height: 35, width: 35 }}
           />
           <SocialIcon
             url="https://www.linkedin.com/in/anubhav-srivastava-370667198/"
-            className="mr-5"
+            className="mr-5 transition duration-300 ease-in-out  hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110"
             target="_blank"
             fgColor="#fff"
             style={{ height: 35, width: 35 }}
           />
           <SocialIcon
             url="mailto:anubhavcs.py@gmail.com"
-            className="mr-5"
+            className="mr-5 transition duration-300 ease-in-out  hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110"
             target="_blank"
             fgColor="#fff"
             style={{ height: 35, width: 35 }}
           />
           <SocialIcon
             url="https://twitter.com/"
-            className="mr-5"
+            className="mr-5 transition duration-300 ease-in-out  hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110"
             target="_blank"
             fgColor="#fff"
             style={{ height: 35, width: 35 }}
@@ -69,7 +69,7 @@ export default function NavBar() {
           <SocialIcon
             // url="https://wa.me/919315973298"
             url="https://drive.google.com/file/d/1o8MfsRuZqGMTjKMio40sa2xwdpjDyptp/view?usp=sharing"
-            className="mr-5"
+            className="mr-5 transition duration-300 ease-in-out  hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110"
             target="_blank"
             fgColor="#fff"
             style={{ height: 35, width: 35 }}
