@@ -36,6 +36,10 @@ export default {
       type: "url",
     },
     {
+      name: "code",
+      type: "url",
+    },
+    {
       name: "tags",
       type: "array",
       of: [
