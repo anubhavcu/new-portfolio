@@ -12,7 +12,7 @@ export default function NavBar() {
             to="/"
             exact
             activeClassName="text-white"
-            className="inflex-flex items-center py-6 px-3 mr-10  text-red-100 transition duration-300 ease-in-out  hover:bg-red-600  hover:text-white text-4xl sans-serif tracking-widest"
+            className="inflex-flex items-center py-6 px-3 mr-10  text-red-100 transition duration-300 ease-in-out  hover:bg-red-600  hover:text-white text-4xl cursive tracking-widest"
           >
             Anubhav
           </NavLink>
