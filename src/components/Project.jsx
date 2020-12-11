@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import sanityClient from "../client";
+import image from "../spinner.gif";
 
 export default function Project() {
   const [projectData, setProjectData] = useState(null);
@@ -107,9 +108,14 @@ export default function Project() {
     );
   } else {
     return (
-      <section className="relative flex justify-center min-h-screen pt-12 lg:pt-64 px-8">
-        <h2 className="text-4xl">Loading ... </h2>;
-      </section>
+      <div className="relative flex justify-center min-h-screen pt-12 lg:pt-64 px-8">
+        {/* <h2 className="text-4xl">Loading.. </h2> */}
+        <h2 className="text-4xl justify-center  ">
+          {" "}
+          <img src={image} className="justify-center"></img>{" "}
+        </h2>
+        ;
+      </div>
     );
   }
 }
