@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { SocialIcon } from "react-social-icons";
+import { BiDownload } from "react-icons/bi";
 
 export default function NavBar() {
   return (
@@ -40,40 +41,48 @@ export default function NavBar() {
         <div className="inline-flex py-3 px-4 my-6">
           <SocialIcon
             url="https://github.com/anubhavcu"
-            className="mr-5 transition duration-300 ease-in-out  hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110"
+            className="mr-5 transition duration-300 ease-in-out  transform hover:-translate-y-1 hover:scale-150"
             target="_blank"
             fgColor="#fff"
             style={{ height: 35, width: 35 }}
           />
           <SocialIcon
             url="https://www.linkedin.com/in/anubhav-srivastava-370667198/"
-            className="mr-5 transition duration-300 ease-in-out  hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110"
+            className="mr-5 transition duration-300 ease-in-out   transform hover:-translate-y-1 hover:scale-150"
             target="_blank"
             fgColor="#fff"
             style={{ height: 35, width: 35 }}
           />
           <SocialIcon
             url="mailto:anubhavcs.py@gmail.com"
-            className="mr-5 transition duration-300 ease-in-out  hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110"
+            className="mr-5 transition duration-300 ease-in-out  transform hover:-translate-y-1 hover:scale-150"
             target="_blank"
             fgColor="#fff"
             style={{ height: 35, width: 35 }}
           />
           <SocialIcon
             url="https://twitter.com/"
-            className="mr-5 transition duration-300 ease-in-out  hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110"
+            className="mr-5 transition duration-300 ease-in-out   transform hover:-translate-y-1 hover:scale-150"
             target="_blank"
             fgColor="#fff"
             style={{ height: 35, width: 35 }}
           />
           <SocialIcon
             // url="https://wa.me/919315973298"
-            url="https://drive.google.com/file/d/1o8MfsRuZqGMTjKMio40sa2xwdpjDyptp/view?usp=sharing"
-            className="mr-5 transition duration-300 ease-in-out  hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110"
+            url="https://facebook.com"
+            className="mr-5 transition duration-300 ease-in-out  transform hover:-translate-y-1 hover:scale-150"
             target="_blank"
             fgColor="#fff"
             style={{ height: 35, width: 35 }}
           />
+          <a
+            href="https://drive.google.com/file/d/1o8MfsRuZqGMTjKMio40sa2xwdpjDyptp/view?usp=sharing"
+            target="_blank"
+          >
+            <h3 className="mr-5 transition duration-300 ease-in-out  transform hover:-translate-y-1 hover:scale-150">
+              <BiDownload style={{ height: 35, width: 35, color: "#fff" }} />
+            </h3>
+          </a>
         </div>
       </div>
     </header>

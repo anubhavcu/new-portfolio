@@ -28,7 +28,7 @@ export class Home extends Component {
       text: "",
       isDeleting: false,
       loopNum: 0,
-      typingSpeed: 150,
+      typingSpeed: 100,
     };
   }
   componentDidMount() {
@@ -38,7 +38,7 @@ export class Home extends Component {
     const dataText = [
       "Hello world! I'm Anubhav",
       "I am a FullStack software developer",
-      "Know more about me in the links above",
+      "Connect to know more about me!",
       //   "or, Contact me for any query!",
     ];
     const { isDeleting, loopNum, text, typingSpeed } = this.state;
@@ -49,7 +49,7 @@ export class Home extends Component {
       text: isDeleting
         ? fullText.substring(0, text.length - 1)
         : fullText.substring(0, text.length + 1),
-      typingSpeed: isDeleting ? 30 : 150,
+      typingSpeed: isDeleting ? 30 : 100,
     });
 
     if (!isDeleting && text === fullText) {
