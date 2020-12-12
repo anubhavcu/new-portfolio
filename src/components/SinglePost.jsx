@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import sanityClient from "../client.js";
 import imageUrlBuilder from "@sanity/image-url";
 import BlockContent from "@sanity/block-content-to-react";
+import image from "../spinner.gif";
 
 const builder = imageUrlBuilder(sanityClient);
 // urlFor = (source) => builder.image(source);
@@ -37,13 +38,25 @@ export default function SinglePost() {
       })
       .catch(console.error);
   }, [slug]);
-  if (!singlePost) return <div>Loading...</div>;
+  if (!singlePost) {
+    return (
+      <div className="relative flex justify-center min-h-screen pt-12 lg:pt-64 px-8">
+        {/* <h2 className="text-4xl">Loading.. </h2> */}
+        <h2 className="text-4xl justify-center  ">
+          {" "}
+          <img src={image} className="justify-center"></img>{" "}
+        </h2>
+        ;
+      </div>
+    );
+  }
+
   return (
     <main className="bg-gray-200 min-h-screen p-12">
       <article className="container shadow-lg mx-auto bg-green-50 rounded-lg">
         <header className="relative ">
           <div className="absolute h-full w-full flex items-center justify-center p-8">
-            <div className="bg-white bg-opacity-90 rounded p-12">
+            <div className="bg-gray-100 bg-opacity-90 rounded p-12">
               <h2 className="cursive text-3xl lg:text-6xl mb-4">
                 {singlePost.title}
               </h2>
