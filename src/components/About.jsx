@@ -63,6 +63,21 @@ export default function About() {
                 projectId="ioe8ozk3"
                 dataset="production"
               />
+              <h4 style={{ color: "#fff" }}>
+                Check on my{" "}
+                <strong>
+                  <a
+                    href="https://drive.google.com/file/d/1o8MfsRuZqGMTjKMio40sa2xwdpjDyptp/view?usp=sharing"
+                    target="_blank"
+                  >
+                    <button class="py-1 px-3 bg-white-500 text-white font-semibold rounded-lg shadow-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-green-400 focus:ring-opacity-75 transition duration-300 ease-in-out   transform hover:-translate-y-1 hover:scale-60 ">
+                      Resume
+                    </button>
+                  </a>{" "}
+                </strong>{" "}
+                for more info!
+              </h4>
+              {/* <Skills /> */}
             </div>
           </div>
         </section>

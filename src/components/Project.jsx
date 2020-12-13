@@ -21,8 +21,14 @@ export default function Project() {
        }`
       )
       .then((data) => {
-        // console.log(data);
+        console.log(data);
         setLoading(false);
+        // sorting the data(projects) by date, showing latest projects first.
+        data.sort((a, b) => {
+          let date1 = new Date(a.date);
+          let date2 = new Date(b.date);
+          return date2 - date1;
+        });
         setProjectData(data);
       })
       .catch(console.error);
