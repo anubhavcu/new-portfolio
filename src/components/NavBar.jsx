@@ -47,7 +47,7 @@ export default function NavBar() {
             style={{ height: 35, width: 35 }}
           />
           <SocialIcon
-            url="https://www.linkedin.com/in/anubhav-srivastava-370667198/"
+            url="https://www.linkedin.com/in/anubhavksr/"
             className="mr-5 transition duration-300 ease-in-out   transform hover:-translate-y-1 hover:scale-150"
             target="_blank"
             fgColor="#fff"
@@ -61,7 +61,7 @@ export default function NavBar() {
             style={{ height: 35, width: 35 }}
           />
           <SocialIcon
-            url="https://twitter.com/"
+            url="https://twitter.com/anubhav_sr"
             className="mr-5 transition duration-300 ease-in-out   transform hover:-translate-y-1 hover:scale-150"
             target="_blank"
             fgColor="#fff"
@@ -76,7 +76,7 @@ export default function NavBar() {
             style={{ height: 35, width: 35 }}
           />
           <a
-            href="https://drive.google.com/file/d/1o8MfsRuZqGMTjKMio40sa2xwdpjDyptp/view?usp=sharing"
+            href="https://drive.google.com/file/d/1ZZQ0N3a4cK_2L9MyhtVFIGEEYNgQPxut/view?usp=sharing"
             target="_blank"
           >
             <h3 className="mr-5 transition duration-300 ease-in-out  transform hover:-translate-y-1 hover:scale-150">
