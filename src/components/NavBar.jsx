@@ -75,10 +75,10 @@ export default function NavBar() {
             fgColor="#fff"
             style={{ height: 35, width: 35 }}
           />
-          <a
+          {/* <a
             href="https://drive.google.com/file/d/16l1KhoQAUMQ3Z0C9r1sHO0hHDLrGvQur/view?usp=sharing"
             target="_blank"
-          >
+          > */}
             <h3 className="mr-5 transition duration-300 ease-in-out  transform hover:-translate-y-1 hover:scale-150">
               <BiDownload style={{ height: 35, width: 35, color: "#fff" }} />
             </h3>
